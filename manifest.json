@@ -1,0 +1,14 @@
+{
+  "name": "bugreport-omnibox-focus",
+  "version": "0.0.0",
+  "description": "",
+  "homepage_url": "https://github.com/stefanbuck/bugreport-omnibox-focus",
+  "manifest_version": 3,
+  "minimum_chrome_version": "100",
+  "omnibox": {
+    "keyword": "k"
+  },
+  "background": {
+    "service_worker": "./background.js"
+  }
+}
